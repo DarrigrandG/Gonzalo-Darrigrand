@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: black;
+}
+
+/*Barra de navegación*/
+.navbar-toggler {
+  color: antiquewhite;
+}
+
+.navbar-toggler-icon {
+  color: antiquewhite;
+  background-color: antiquewhite;
+}
+.navbar {
+  padding: 2rem;
+  background-color: #182153;
+}
+
+/*navbar-collapse son los títulos propiamente dichos*/
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+  color: #f1f1f1;
+}
+
+.ico {
+  border-radius: 50px;
+  width: 100px;
+  /*overflow: visible;*/
+}
+
+.nav-link {
+  color:  #f1f1f1;
+  font-size:x-large;
+}
+
+/*La sección principal se llama hero*/
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.hero {
+  min-height: 450px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.hero-principal h2 {
+  color: gray;
+}
+
+.imagen-mapa {
+  width: 400px;
+  margin: 20px;
+  text-align: center;
+}
+
+
+/*Adaptable responsivo*/
+/*navbar-brand es el ínoco CS*/
+@media (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) {
+  .hero-inf-img {
+max-width: 600px;
+  }
+}
