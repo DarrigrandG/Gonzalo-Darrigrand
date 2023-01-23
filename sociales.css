@@ -72,7 +72,30 @@ h1 {
   text-align: center;
 }
 
+/*Sección Acerca de las ciencias sociales, acercacs. Es la sección oscura.*/
+.acercacs {
+  height: auto;
+  padding: 10px;
+}
 
+.acercacs .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+.seccion-oscura {
+  background-color: #182153;
+  color: #f1f1f1;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
 /*Adaptable responsivo*/
 /*navbar-brand es el ínoco CS*/
 @media (max-width: 767px) {
