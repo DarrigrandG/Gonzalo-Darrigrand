@@ -96,6 +96,44 @@ h1 {
 .seccion-texto {
   font-size: 1.2rem;
 }
+
+/*Experiencia*/
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia i {
+  color: #5e6fca;
+  /*background-color:antiquewhite;*/
+  font-size: 2.5rem;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.seccion-clara {
+  color: gray;
+}
+
+/*.experiencia .row div {
+  height: 250px;
+  border: 1px black solid;
+}*/
+
+.inicial-titulo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 1rem;
+  color: #f1f1f1;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
 /*Adaptable responsivo*/
 /*navbar-brand es el ínoco CS*/
 @media (max-width: 767px) {
