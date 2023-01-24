@@ -149,8 +149,85 @@ h1 {
 .badge {
   margin: 5px;
 }
+
+/*Proyectos. Yo acá coloco La experiencia Martín Fierro*/
+.proyectos-recientes {
+  padding: 40px;
+}
+ .proyectos-recientes img {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: block;
+  transition: all .2s ease;
+  border: #182153 solid 1px;
+ }
+
+.texto-negro {
+
+}
+
+.texto-blanco {}
+
+.seccion-descripción {
+  font-size: 1.3rem;
+  color: gray;
+}
+
+.proyectos-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.overlay {
+  transition: .2s all ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.proyecto:hover img {
+  opacity: .2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  /*display: flex; Contenia flex porque originalmente lleva dos íconos*/
+}
+
+.overlay i {
+  color: #182153;
+  font-size: 2rem;
+  margin: 10px;
+}
+
 /*Adaptable responsivo*/
 /*navbar-brand es el ínoco CS*/
+@media (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
 @media (max-width: 767px) {
   .navbar-brand {
     display: none;
