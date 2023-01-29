@@ -64,6 +64,7 @@ h1 {
 
 .hero-principal h2 {
   color: gray;
+  font-size: 1.5rem;
 }
 
 .imagen-mapa {
@@ -238,7 +239,7 @@ h1 {
   font-weight: bold;
 }
 
-/*Testimonios*/
+/*Testimonios o Recursos didácticos*/
 .testimonios {
   padding: 40px;
 }
@@ -261,13 +262,13 @@ h1 {
 }
 
 .carousel-item h5 {
-  color: #182153;
+  color: wheat;
   font-weight: bold;
   font-size: 2.5rem;
 }
 
 .carousel-item p {
-  color: #182153;
+  color: white;
   font-weight: bold;
   font-size: 2.0rem;
 }
@@ -299,6 +300,10 @@ h1 {
 .contacto .descripcion {
   color: antiquewhite;
   font-size: 1.5rem;
+}
+
+.btn-comentarios {
+  font-size: 1.0rem;
 }
 
 .contacto button {

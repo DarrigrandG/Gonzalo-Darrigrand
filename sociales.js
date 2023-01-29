@@ -7,9 +7,15 @@ ScrollReveal().reveal('.testimonios', {delay: 500});
 ScrollReveal().reveal('.contacto', {delay: 500});
 ScrollReveal().reveal('.pie', {delay: 500});
 
-/*<a href="mailto: gonzalo.darrigrand@gmail.com">
-              <button type="button">
-                Contacto <i class="bi bi-envelope-check"></i>
-              </button> 
-            </a>*/
+
+function mostrarComentarios() {
+  var texto = document.getElementById("observaciones").value;
+  if (texto.trim() == "") {
+    alert("Por favor escriba en el área de texto");
+  } else {
+    console.log("Comentario: " + texto);
+    alert("Gracias por su comentario, en breve recibirá una devolución.");
+  }
+}
+
 
