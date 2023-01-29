@@ -277,8 +277,8 @@ h1 {
   font-size: 1.3em;
   margin-top: 10px;
 }
-/*Contacto*/
 
+/*Contacto*/
 .contacto .container {
   max-width: 1100px;
   min-height: 200px;
@@ -413,4 +413,18 @@ footer {
 max-width: 600px;
   }
 }
-/*Falta para el carrusel*/
+
+@media (max-width: 767px) {
+  .carousel-item h5 {
+    color: wheat;
+    font-weight: bold;
+    font-size: .5rem;
+  }
+  
+  .carousel-item p {
+    color: white;
+    font-weight: bold;
+    font-size: .5rem;
+  }
+
+}
