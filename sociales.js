@@ -17,5 +17,7 @@ function mostrarComentarios() {
     alert("Gracias por su comentario, en breve recibirá una devolución.");
   }
 }
+justify-content-start
+
 
 

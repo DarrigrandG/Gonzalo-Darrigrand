@@ -27,6 +27,12 @@ body {
   align-items: center;
   justify-content: space-between;
   color: #f1f1f1;
+  cursor: pointer;
+}
+
+li:hover {
+  border-bottom: 2px solid #f1f1f1;
+  transform: translateY(-10px);
 }
 
 .ico {
@@ -71,6 +77,12 @@ h1 {
   width: 400px;
   margin: 20px;
   text-align: center;
+  background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 /*Sección Acerca de las ciencias sociales, acercacs. Es la sección oscura.*/
@@ -226,7 +238,7 @@ h1 {
 /*Artículos*/
 .articulos {
   min-height: 500px;
-  padding: 30px;
+  padding: 0px 30px 30px;
 }
 
 .articulos .card {
@@ -239,9 +251,13 @@ h1 {
   font-weight: bold;
 }
 
+.tarjetas {
+  display: flex;
+  flex-direction: row;
+}
 /*Testimonios o Recursos didácticos*/
 .testimonios {
-  padding: 40px;
+  padding: 40px 40px 0px;
 }
 
 .testimonios .carousel {
