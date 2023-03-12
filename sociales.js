@@ -8,6 +8,7 @@ ScrollReveal().reveal('.contacto', {delay: 500});
 ScrollReveal().reveal('.pie', {delay: 500});
 
 
+
 function mostrarComentarios() {
   var texto = document.getElementById("observaciones").value;
   if (texto.trim() == "") {
@@ -15,9 +16,11 @@ function mostrarComentarios() {
   } else {
     console.log("Comentario: " + texto);
     alert("Gracias por su comentario, en breve recibirá una devolución.");
+    document.getElementById("observaciones").value = ""; // limpia el área del textarea
   }
 }
-justify-content-start
+
+
 
 
 
